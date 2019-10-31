@@ -1,0 +1,107 @@
+$baseTextColor: rgb(252, 252, 252)
+$lightGrey : #313942
+
+html
+    background: #0E141B
+    color: $baseTextColor
+    font-family: 'Source Sans Pro', 'sans-serif'
+    box-sizing: border-box
+    height: 100%
+    a
+        color: $baseTextColor
+        text-decoration: none
+
+body
+    background: #181E25
+    width: 100%
+    min-height: 100%
+    max-width: 400px
+    margin: 0 auto
+    padding: 20px 5% 60px
+
+header
+    display: flex
+    justify-content: center
+    align-items: center
+    h1, h2
+        margin: 0
+    img
+        margin-right: 10px
+
+.link
+    text-decoration: underline
+
+#player
+    margin-top: 20px
+    margin-bottom: 40px
+    text-align: center
+    iframe
+        margin-bottom: 10px
+
+.btn
+    background: #62C1B3
+    border-radius: 10px
+    padding: 10px
+    width: 50%
+    margin: 0 auto
+    display: block
+    text-align: center
+
+.search
+    background: $lightGrey
+    color: $baseTextColor
+    border: 0px
+    padding: 10px
+    width: 100%
+    border-radius: 10px
+    font-size: 1rem
+    margin-bottom: 20px
+    outline: none
+
+.title
+    font-size: 1.4rem
+    font-weight: bold
+
+.line
+    border-bottom: 2px solid $baseTextColor
+    width: 100px
+    display: block
+    margin-top: 10px
+
+.boxes
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding: 5px 10px
+    &:hover
+        background: $lightGrey
+
+.boxes_active
+    color: #A168FB
+    .arrow-right
+        border-left-color: #A168FB
+
+.arrow-right
+    width: 0
+    height: 0
+    border-top: 10px solid transparent
+    border-bottom: 10px solid transparent
+    border-left: 10px solid $baseTextColor
+
+#content
+    a
+        text-decoration: underline
+
+footer
+    display: flex
+    justify-content: space-between
+    align-items: center
+    position: fixed
+    bottom: 0px
+    left: 0px
+    transform: translate(-50%)
+    margin-left: 50%
+    padding: 8px 5%
+    background: #2A343E
+    width: 100%
+    max-width: 400px

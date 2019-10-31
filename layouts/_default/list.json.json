@@ -1,0 +1,13 @@
+{
+    "data": [
+        {{ range $index, $e := .Data.Pages }}
+        {{ if $index }}, {{ end }} {
+            "id" : "{{ $index }}",
+            "title" : "{{ .Title }}",
+            "link" : "{{ .Permalink }}",
+            "snippet": "{{ $e.Params.snippet }}",
+            "soundcloud_id": "{{ $e.Params.soundcloud_id }}"
+        }
+        {{ end }}
+    ]
+}

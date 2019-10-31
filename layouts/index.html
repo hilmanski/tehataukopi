@@ -1,0 +1,75 @@
+{{ define "main" }}
+
+    <main id="main">
+        <section id="player">
+            <div v-if="currentItem">
+                <iframe :src="'https://anchor.fm/tehataukopi/embed/episodes/' + currentItem.soundcloud_id" height="100" width="100%" frameborder="0" scrolling="no"></iframe>
+                <p> ${currentItem.snippet} </p>
+                <a :href="currentItem.link" class="btn">Link/Catatan </a>
+            </div>
+
+            <div v-else>
+                {{ range first 1 .Pages }}
+                    <iframe src="https://anchor.fm/tehataukopi/embed/episodes/{{ .Params.soundcloud_id }}" height="100" width="100%" frameborder="0" scrolling="no"></iframe>
+                    <p> {{ .Params.snippet }} </p>
+                    <a href="{{.Permalink}}" class="btn">Link/Catatan </a>
+                {{ end }}
+            </div>
+        </section>
+
+        <section>
+            <input type="text" v-model="search_q" placeholder="Cari judul.." class="search">
+
+            <div class="title">Daftar Episode</div>
+            <div class="line"></div>
+
+          <a v-for="(item, index) in filteredItems"
+               href="#" @click="play(item)" class="boxes" :class="{boxes_active:item == currentItem}" >
+             <p>${item.title}</p>
+             <div class="arrow-right"></div>
+          </a>
+
+          <p>"Tehataukopi" bisa juga kamu dengarkan di tempat podcast lainnya seperti spotify, apple podcast, google podcast, etc..</p>
+        </section>
+
+    </main>
+
+    <script src=https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js></script>
+    <script>
+        //Ambil datanya ${item.title}
+        //Change playlist function
+        //add search in design
+
+        (async () => {
+        const res = await fetch('/index.json');
+        const itemsRaw = await res.json();
+        const items = itemsRaw.data
+
+        new Vue({
+          delimiters: ['${', '}'],
+          el: '#main',
+          data: {
+              items: items,
+              currentItem: "",
+              search_q: "",
+              loading   : true,
+          },
+          methods: {
+              play: function (item) {
+                    this.currentItem = item
+              }
+         },
+          computed: {
+              filteredItems: function() {
+                  let itemWithFilter = this.items.filter((item) => {
+                                        return item.title.toLowerCase().includes(this.search_q.toLowerCase())
+                                    })
+                return itemWithFilter
+              }
+          }
+        })
+      })();
+    </script>
+
+{{ end }}
+

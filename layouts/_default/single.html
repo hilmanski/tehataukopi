@@ -1,0 +1,22 @@
+{{ define "main" }}
+
+<section id="main">
+  <h1>{{ .Title }}</h1>
+  <div class="line"></div>
+
+ <br>
+  <iframe src="https://anchor.fm/tehataukopi/embed/episodes/{{ .Params.soundcloud_id }}" height="100" width="100%" frameborder="0" scrolling="no"></iframe>
+
+  <article id="content">
+       {{ .Content }}
+    </article>
+</section>
+
+<aside id="meta">
+    <li id="date"> {{ .Date.Format "Mon Jan 2, 2006" }}
+</aside>
+
+<br><hr>
+<a href="/"> < Ke halaman Awal </a>
+
+{{ end }}

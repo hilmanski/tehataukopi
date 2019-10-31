@@ -1,0 +1,16 @@
+baseURL : https://tehataukopi.club
+languageCode : id
+title : Teh Atau Kopi
+
+params:
+    description: podcast bahasa indonesia seputar kehidupan sehari-hari yang tidak dipelajari di sekolah
+
+staticDir: static
+
+permalinks:
+  posts : /:title/
+
+outputs:
+        home : ["HTML", "RSS", "JSON"]
+
+summaryLength: 25
