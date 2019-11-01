@@ -1,8 +1,9 @@
 {
     "data": [
+        {{ $postCount := len .Data.Pages }}
         {{ range $index, $e := .Data.Pages }}
         {{ if $index }}, {{ end }} {
-            "id" : "{{ $index }}",
+            "id" : "{{sub $postCount $index }}",
             "title" : "{{ .Title }}",
             "link" : "{{ .Permalink }}",
             "snippet": "{{ $e.Params.snippet }}",

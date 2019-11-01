@@ -25,7 +25,7 @@
 
           <a v-for="(item, index) in filteredItems"
                href="#" @click="play(item)" class="boxes" :class="{boxes_active:item == currentItem}" >
-             <p>${item.title}</p>
+             <p>Ep ${item.id}: ${item.title}</p>
              <div class="arrow-right"></div>
           </a>
 
