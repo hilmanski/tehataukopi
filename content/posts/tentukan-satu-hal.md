@@ -14,4 +14,6 @@ Buku [The one thing](https://www.the1thing.com/)
 
 Tulisan terkait:  
 [Tentukan prioritas](https://hilman.space/tentukan-prioritas/)  
-[Belajar mengurangi](https://hilman.space/mengurangi/)
+[Belajar mengurangi](https://hilman.space/mengurangi/)  
+[Mengatur jadwal](https://hilman.space/jadwal/)  
+[Mengerti permainannya](https://hilman.space/permainan)
