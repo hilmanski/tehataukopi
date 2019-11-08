@@ -1,0 +1,22 @@
+---
+label: podcast
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: textarea
+  name: description
+  label: description
+- type: textarea
+  name: snippet
+  label: snippet
+- type: text
+  name: soundcloud_id
+  label: soundcloud_id
+- type: datetime
+  name: date
+  label: date
+- type: list
+  name: aliases
+  label: aliases
