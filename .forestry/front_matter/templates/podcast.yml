@@ -20,3 +20,5 @@ fields:
 - type: list
   name: aliases
   label: aliases
+pages:
+- content/posts/menjaga-kesehatan-mental.md
