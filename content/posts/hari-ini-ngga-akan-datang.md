@@ -1,8 +1,8 @@
 +++
 aliases = ["/podcast/hari-ini-ngga-akan-datang"]
 date = 2017-11-20T00:00:00Z
-description = "Sebelum mulai perjalanan, jangan sampai asal ngikut ke om-om yang ngga jelas. Kenalan dulu yuk! Saya Hilman Ramadhan, sa"
-snippet = "Sebelum mulai perjalanan, jangan sampai asal ngikut ke om-om yang ngga jelas. Kenalan dulu yuk! Saya Hilman Ramadhan, saat ini saya ngerjain sekolahkoding dan WissenSpace"
+description = "Apa itu podcast tehataukopi? Sebelum mulai perjalanan, jangan sampai asal ngikut ke om-om yang ngga jelas. Kenalan dulu yuk! Saya Hilman Ramadhan, "
+snippet = "Sebelum mulai perjalanan, jangan sampai asal ngikut ke om-om yang ngga jelas. Kenalan dulu yuk! Saya Hilman Ramadhan, saat ini saya ngerjain sekolahkoding."
 soundcloud_id = "Hari-ini-ngga-akan-datang-e131nq"
 title = "Hari ini ngga akan datang"
 
