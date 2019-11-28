@@ -21,4 +21,5 @@ fields:
   name: aliases
   label: aliases
 pages:
+- content/posts/mengenal-kognitif-bias.md
 - content/posts/menjaga-kesehatan-mental.md
