@@ -3,7 +3,7 @@ aliases = []
 date = 2019-12-05T16:00:00Z
 description = "Salah dalam mengambil keputusan sulit untuk kita hindari, tapi kita bisa meminimalisirnya. Yuk kenalan dengan masalah kita semua yaitu cognitive bias (kognitif bias), apa saja penyebabnya dan bagaimana menguranginya"
 snippet = "Salah dalam mengambil keputusan sulit untuk kita hindari, tapi kita bisa meminimalisirnya. Yuk kenalan dengan masalah kita semua yaitu cognitive bias (kognitif bias), apa saja penyebabnya dan bagaimana menguranginya"
-soundcloud_id = ""
+soundcloud_id = "Mengenal-kognitif-bias-e982a7"
 title = "Mengenal kognitif bias"
 
 +++
