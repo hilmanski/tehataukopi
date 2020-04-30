@@ -21,6 +21,7 @@ fields:
   name: aliases
   label: aliases
 pages:
-- content/posts/mengenal-kognitif-bias.md
 - content/posts/2-tahun-tehataukopi.md
+- content/posts/guru-akan-hadir.md
+- content/posts/mengenal-kognitif-bias.md
 - content/posts/menjaga-kesehatan-mental.md
