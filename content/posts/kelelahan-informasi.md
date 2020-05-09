@@ -1,6 +1,6 @@
 +++
 aliases = []
-date = 2020-05-06T16:00:00Z
+date = 2020-05-08T16:00:00Z
 description = "Prediksi orang-orang dulu kalau dengan teknologi, manusia akan jadi lebih santai dan bisa menikmati hidup, tidak 100% akurat. Yang terjadi, sumber informasi yang sangat mudah didapat bikin orang-orang kecanduan mengkonsumsinya."
 snippet = "Prediksi orang-orang dulu kalau dengan teknologi, manusia akan jadi lebih santai dan bisa menikmati hidup, tidak 100% akurat. Yang terjadi, sumber informasi yang sangat mudah didapat bikin orang-orang kecanduan mengkonsumsinya."
 soundcloud_id = "Kelelahan-informasi-edeebj"
