@@ -1,7 +1,7 @@
 {
     "data": [
-        {{ $postCount := len .Data.Pages }}
-        {{ range $index, $e := .Data.Pages }}
+        {{ $postCount := len .Site.RegularPages}}
+        {{ range $index, $e := .Site.RegularPages}}
         {{ if $index }}, {{ end }} {
             "id" : "{{sub $postCount $index }}",
             "title" : "{{ .Title }}",

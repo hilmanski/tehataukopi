@@ -1,6 +1,12 @@
 {{ define "main" }}
 
+
+    <script>
+        window.location.replace("https://hilman.space/tehataukopi");
+    </script>
+
     <main id="main">
+
         <section id="player">
             <div v-if="currentItem">
                 <iframe :src="'https://anchor.fm/tehataukopi/embed/episodes/' + currentItem.soundcloud_id" height="100" width="100%" frameborder="0" scrolling="no"></iframe>
